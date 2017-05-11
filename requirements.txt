@@ -4,5 +4,4 @@ Flask-BasicAuth==0.2.0
 gevent==1.2.1
 requests==2.13.0
 Scrapy==0.24.4
-scrapyd==1.0.1
 scrapy-heroku==0.7.1
