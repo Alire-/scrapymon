@@ -1,0 +1,8 @@
+[scrapyd]
+application = scrapy_heroku.app.application
+
+[deploy]
+url = http://sc-raper.herokuapp.com:80/
+project = screen raper
+username = admin
+password = admin
