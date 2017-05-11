@@ -57,7 +57,7 @@ def main():
         '--port', type=int, default=int(os.environ.get('PORT', 5000)))
     argparse_.add_argument(
         '--server', default=os.environ.get(
-            'SCRAPYD_SERVER', 'localhost:6800'))
+            'SCRAPYD_SERVER', '127.0.0.1:6800'))
     argparse_.add_argument('--auth', default=os.environ.get(
             'BASIC_AUTH', 'admin:admin'))
 
