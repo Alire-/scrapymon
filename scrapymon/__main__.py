@@ -57,7 +57,7 @@ def main():
         '--port', type=int, default=int(os.environ.get('PORT', 5000)))
     argparse_.add_argument(
         '--server', default=os.environ.get(
-            'SCRAPYD_SERVER', 'http://127.0.0.1:6800'))
+            'SCRAPYD_SERVER', 'http://sc-raper.herokuapp.com:80'))
     argparse_.add_argument('--auth', default=os.environ.get(
             'BASIC_AUTH', 'admin:admin'))
 
